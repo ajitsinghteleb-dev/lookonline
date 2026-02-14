@@ -1,0 +1,50 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python
+*.py text diff=python
+
+# JavaScript
+*.js text diff=javascript
+*.jsx text diff=javascript
+
+# CSS
+*.css text diff=css
+
+# HTML
+*.html text diff=html
+
+# Markdown
+*.md text diff=markdown
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Archives
+*.zip binary
+*.tar.gz binary
+*.7z binary
+
+# Documents
+*.pdf binary
+*.doc binary
+*.docx binary
+
+# Fonts
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Environment
+.env.example text
+.env.local binary
+
+# Lock files
+package-lock.json -diff
+yarn.lock -diff
