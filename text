@@ -1,0 +1,74 @@
+lookonline/
+├── .github/
+│   ├── workflows/
+│   │   ├── deploy.yml
+│   │   ├── test.yml
+│   │   └── lint.yml
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   └── PULL_REQUEST_TEMPLATE.md
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   └── utils/
+│   ├── requirements/
+│   │   ├── base.txt
+│   │   ├── dev.txt
+│   │   └── prod.txt
+│   ├── tests/
+│   │   ├── test_models.py
+│   │   ├── test_routes.py
+│   │   └── conftest.py
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   └── .env.example
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   └── manifest.json
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   ├── utils/
+│   │   └── App.js
+│   ├── package.json
+│   ├── next.config.js
+│   └── tailwind.config.js
+├── admin/
+│   ├── templates/
+│   ├── static/
+│   ├── auth/
+│   └── dashboard/
+├── jobs/
+│   ├── scrapers/
+│   ├── models/
+│   └── utils/
+├── tenders/
+│   ├── scrapers/
+│   ├── models/
+│   └── utils/
+├── docs/
+│   ├── API.md
+│   ├── DEPLOYMENT.md
+│   ├── ARCHITECTURE.md
+│   └── CONTRIBUTING.md
+├── scripts/
+│   ├── deploy.sh
+│   ├── backup.sh
+│   └── seed_data.py
+├── .gitignore
+├── .gitattributes
+├── .editorconfig
+├── .eslintrc.js
+├── .prettierrc
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+└── SECURITY.md
